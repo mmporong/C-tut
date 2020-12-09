@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using UnityEngine;
 
-public class HelloUnity : Monobehaivior
+public class HelloUnity : MonoBehaviour
 {
     // Start is called before the first frame update
     void Start()
@@ -23,7 +23,7 @@ public class HelloUnity : Monobehaivior
 
         // bool 참 거짓
         bool isBoy = true;
-        bool isGirl = false;
+ 
 
         // char 문자 저장
         char grade = 'A';
@@ -32,12 +32,20 @@ public class HelloUnity : Monobehaivior
 
         string movieTitle = "lovelive";
 
-        Debug.log("내 나이! : " + age);
-        Debug.log("내가 가진 돈은! : " + money);
-        Debug.log("내 키는! : " + height);
-        Debug.log("원주율은! : " + PI);
-        Debug.log("내 성적은! : " + grade);
-        Debug.log("나는 남자인가? " + isBoy);
+        Debug.Log("내 나이! : " + age);
+        Debug.Log("내가 가진 돈은! : " + money);
+        Debug.Log("내 키는! : " + height);
+        Debug.Log("원주율은! : " + PI);
+        Debug.Log("내 성적은! : " + grade);
+        Debug.Log("나는 남자인가? " + isBoy);
+        Debug.Log("좋아하는 영화는? :" + movieTitle);
+
+        var myName = "I__Jooyoung";
+        var myAge = 30;
+        //let myName = "I_Jooyoung";
+
+        Debug.Log("주영의 아이디 :" + myName);
+        Debug.Log("주영의 나이 :" + myAge);
     }
 
 }
