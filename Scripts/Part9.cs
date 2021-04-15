@@ -21,6 +21,7 @@ public class Part9 : MonoBehaviour
         arrayList.Add("가나"); 
         arrayList.Remove("가나");
 
+        arrayList.Contains(2);
 
         print(arrayList.Count);  // 5
 
